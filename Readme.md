@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Светлана Казакова](https://up.htmlacademy.ru/htmlcss/20/user/652205).
-* Наставник: [Руслан Князев](ttps://up.htmlacademy.ru/htmlcss/20/user/208301).
+* Наставник: [Руслан Князев](https://up.htmlacademy.ru/htmlcss/20/user/208301).
 
 ---
 
