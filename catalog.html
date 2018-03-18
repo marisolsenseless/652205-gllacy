@@ -40,7 +40,59 @@
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <!-- Здесь будет форма -->
-      </section>
+         <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+         
+            <p>Сортировка:</p>
+             <select name="grading">
+                <option value="По популярности">По популярности</option>
+            </select>
+                
+            <label for="price-range">Цена: 100 руб.-500 руб.</label>
+            <input type="range" id="price-range" name="price-range" min="100" max="500" step="10">
+            <legend>Жирность:</legend>
+            <ul>
+             <li class="filter-option">
+                <input type="radio" name="fattiness" value="0%" id="0%">
+            <label for="0%">0%</label>
+             </li>
+              <li class="filter-option">
+                <input type="radio" name="fattiness" value="до 10%" id="до 10%" checked>
+             <label for="до 10%">до 10%</label>
+             </li>
+             <li class="filter-option">
+                <input type="radio" name="fattiness" value="до 30%" id="до 30%">
+            <label for="до 30%">до 30% </label>
+            </li>
+            <li class="filter-option">
+                <input type="radio" name="fattiness" value="выше 30%" id="выше 30%">
+                <label for="выше 30%"></label>
+            </li>
+        </ul>
+            
+            <legend>Наполнители:</legend>
+            <ul>
+                <li class="filter-option">
+            <input type="checkbox" name="chocolate" id="chocolate">
+            <label for="chocolate">шоколадные</label>
+                </li>  
+                <li class="filter-option">
+            <input type="checkbox" name="sugar" id="sugar">
+            <label for="sugar">сахарные присыпки</label>
+                </li> 
+                <li class="filter-option">
+            <input type="checkbox" name="fruits" id="fruits">
+            <label for="fruits">фрукты</label>
+                </li> 
+             <li class="filter-option">
+            <input type="checkbox" name="syrups" id="syrups">
+            <label for="syrups">сиропы</label>
+                </li> 
+                 <li class="filter-option">
+            <input type="checkbox" name="jams" id="jams">
+            <label for="jams">джемы</label>
+                </li> 
+
+    </section>
 
       <section class="catalog">
           <h2 class="visually-hidden">Виды мороженого</h2>
@@ -52,7 +104,7 @@
 
             <p class="catalog-item-image">
              <a href="catalog-item.html">
-              <img src="img/catalog-ice-cream1.jpg" width="50" height="50" alt="Мороженое1">
+              <img src="img/catalog-ice-cream1.jpg" width="100" height="100" alt="Мороженое1">
             </a>
           </p>
           <p class="price">
