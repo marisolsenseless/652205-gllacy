@@ -44,28 +44,32 @@
          
             <p>Сортировка:</p>
              <select name="grading">
-                <option value="По популярности">По популярности</option>
+                <option value="по популярности">по популярности</option>
+                <option value="сначала недорогие">сначала недорогие</option>
+                <option value="сначала дорогие">сначала дорогие</option>
+                <option value="по жирности">по жирности</option>
             </select>
+
                 
             <label for="price-range">Цена: 100 руб.-500 руб.</label>
             <input type="range" id="price-range" name="price-range" min="100" max="500" step="10">
             <legend>Жирность:</legend>
             <ul>
              <li class="filter-option">
-                <input type="radio" name="fattiness" value="0%" id="0%">
-            <label for="0%">0%</label>
+                <input type="radio" name="fattiness" value="0%" id="zero">
+            <label for="zero">0%</label>
              </li>
               <li class="filter-option">
-                <input type="radio" name="fattiness" value="до 10%" id="до 10%" checked>
-             <label for="до 10%">до 10%</label>
+                <input type="radio" name="fattiness" value="до 10%" id="less10" checked>
+             <label for="less">до 10%</label>
              </li>
              <li class="filter-option">
-                <input type="radio" name="fattiness" value="до 30%" id="до 30%">
-            <label for="до 30%">до 30% </label>
+                <input type="radio" name="fattiness" value="до 30%" id="less30">
+            <label for="less30">до 30% </label>
             </li>
             <li class="filter-option">
-                <input type="radio" name="fattiness" value="выше 30%" id="выше 30%">
-                <label for="выше 30%"></label>
+                <input type="radio" name="fattiness" value="выше 30%" id="more30">
+                <label for="more30"></label>
             </li>
         </ul>
             
@@ -91,6 +95,8 @@
             <input type="checkbox" name="jams" id="jams">
             <label for="jams">джемы</label>
                 </li> 
+            </ul>
+            <button type="submit" class="filter-button">Применить</button>
 
     </section>
 
