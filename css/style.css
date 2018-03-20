@@ -9,4 +9,12 @@ body {
   color: #ffffff;
   text-transform: uppercase;
 
-  background-color: 849d8f;
+  background-color: #000000;
+  background-image: url("img/background1.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+}
