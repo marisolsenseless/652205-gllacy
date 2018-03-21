@@ -10,8 +10,16 @@ body {
   
 
   background-color: rgb(132, 157, 143);
- 
-}
+ }
+
+
+
+
+
+
+
+
+
 
 .slider {
     position: relative;
@@ -72,6 +80,14 @@ body {
     transform: translate(-900px);
 }
 
+
+
+
+
+
+
+
+
 .time{
 	font-size: 14px;
 	line-height:16px;
@@ -107,18 +123,19 @@ a {
 .user-navigation a:focus {
  background-color: #ffffff;
 }
-.container h3{
+.container h2{
 	font-size:60px;
 	line-height: 60,35px;
 	text-align: center;
+
 }
 .offer-list {
 	list-style: none;
 }
-.offer-item1 {
+.offer-item1 li {
 	font-size: 35px;
 	line-height: 41px;
-	background-image: url("/img/raspberry-background");
+	background-image: url("img/raspberry-background.jpg");
 
 }
 .offer-item2 {
@@ -131,6 +148,41 @@ a {
 }
 
 
-.catalog-title{
+.catalog-list{
 	list-style: none;
+
+}
+.catalog a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.catalog-title {
+	font-size:16px;
+	line-height:22px;
+
+}
+h4 {
+	font-size:24px;
+	line-height:30px;
+	color:#000000;
+}
+.feature-item {
+	font-size:16px;
+	line-height: 22px;
+	color:#000000;
+}
+.news p{
+	font-size:16px;
+	line-height: 22px;
+	color:#000000;
+}
+.news a {
+	font-size:24px;
+	line-height: 30px;
+	color:#000000;
+}
+.mail-out p{
+	font-size:16px;
+	line-height: 22px;
+	color:#000000;
 }
