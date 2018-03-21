@@ -7,14 +7,82 @@ body {
   line-height: 18px;
   font-weight: 700;
   color: #ffffff;
-  text-transform: uppercase;
+  
 
-  background-color: #000000;
-  background-image: url("img/background1.png");
-  background-position: top center;
-  background-repeat: no-repeat;
+  background-color: rgb(132, 157, 143);
+ 
 }
 
+.slide1 {
+	background: url(/img/background1.png);
+}
+
+.slide2 {
+	background: url(/img/background2.png);
+}
+
+.slide3 {
+	background: url(/img/background3.png);
+}
+.time{
+	font-size: 14px;
+	line-height:16px;
+}
+.telefone {
+	font-size:22px;
+	line-height:24px;
+}
 a {
 	text-decoration: none;
+}
+
+.main-navigation {
+	font-size: 16px;
+	line-height: 20px;
+	color:#ffffff;
+	background-color: rgb(154, 183, 167);
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+ background-color: #242424;
+}
+.container h3{
+	font-size:60px;
+	line-height: 60,35px;
+	text-align: center;
+}
+.offer-list {
+	list-style: none;
+}
+.offer-item1 {
+	font-size: 35px;
+	line-height: 41px;
+	background-image: url("/img/raspberry-background");
+
+}
+.offer-item2 {
+	font-size: 35px;
+	line-height: 41px;
+}
+.offer-item p {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+
+.catalog-title{
+	list-style: none;
 }
