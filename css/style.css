@@ -38,6 +38,7 @@ body {
     transition: transform 0.8s ease;
 }
 
+
 .slider-slides img {
     float: left;
     width: 450px;
@@ -48,7 +49,7 @@ body {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*
 .slider-controls label {
     display: inline-block;
     width: 10px;
@@ -79,7 +80,7 @@ body {
 #btn-3:checked ~ .slider-inner .slider-slides {
     transform: translate(-900px);
 }
-
+*/
 
 
 
@@ -185,4 +186,47 @@ h4 {
 	font-size:16px;
 	line-height: 22px;
 	color:#000000;
+}
+.footer-social {
+  text-align: left;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
+}
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.extra-information {
+	text-align: center;
+}
+.extra-information ul {
+	list-style: none;
+}
+.extra-information a{
+	color:#ffffff;
+	font-size:13px;
+	line-height: 18px;
+}
+
+.footer-copyright a{
+	color:#ffffff;
+	font-size:12px;
+	line-height: 18px;
+	
+}
+.footer-copyright {
+	text-align: right;
 }
