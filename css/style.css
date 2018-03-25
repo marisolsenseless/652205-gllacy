@@ -2,9 +2,9 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "Roboto", sans-serif;                                                                        
+  font-family: "Roboto", Arial, sans-serif;                                                                        
   font-size: 16px;
-  line-height: 18px;
+  line-height: 1.2;
   font-weight: 700;
   color: #ffffff;
   
@@ -109,12 +109,20 @@ a {
 }
 
 .site-navigation,
-.user-navigation {
+.user-navigation,
+.search,
+.basket,
+.breadcrumbs {
   list-style: none;
 }
 
 .site-navigation a,
-.user-navigation a {
+.user-navigation a,
+.search a,
+.basket a,
+.index a,
+.catalog a,
+.creamy-current {
   color: #ffffff;
 }
 
@@ -126,7 +134,7 @@ a {
 }
 .container h2{
 	font-size:60px;
-	line-height: 60,35px;
+	line-height: 60px;
 	text-align: center;
 
 }
