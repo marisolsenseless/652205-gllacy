@@ -238,3 +238,65 @@ h4 {
 .footer-copyright {
 	text-align: right;
 }
+
+
+/* ------Сеточные стили--------*/
+
+.main-header {
+margin-bottom:35px;
+}
+
+.site-navigation {
+	width:400px;
+	margin: 0;
+	padding: 0;
+}
+
+.user-navigation{
+	width:265px;
+	margin:0;
+	padding: 0;
+}
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+ }
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+  
+  /* Временно для сетки */
+  min-height: 70px;
+}
+
+.user-navigation {
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+  
+  /* Временно для сетки */
+  min-height: 70px;
+}
+
+.main-navigation-wrapper {
+  width: 100%;
+  margin-bottom:35px;
+}
+.container1 {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.footer-copyright {
+  width: 150px;
+  margin: 0;
+  margin-left: auto;
+
+  /* Временно для сетки */
+  min-height: 100px;
+}
