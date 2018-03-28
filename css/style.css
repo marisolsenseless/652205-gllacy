@@ -144,7 +144,7 @@ a {
 .offer-item1 li {
 	font-size: 35px;
 	line-height: 41px;
-	background-image: url("img/raspberry-background.jpg");
+	
 
 }
 .offer-item2 {
@@ -260,6 +260,7 @@ margin-bottom:35px;
 .main-navigation {
   display: flex;
   flex-direction: column;
+  
  }
 
 .site-navigation {
@@ -286,12 +287,32 @@ margin-bottom:35px;
   width: 100%;
   margin-bottom:35px;
 }
+.main-navigation-wrapper .container1{
+	display: flex;
+	justify-content: space-between;
+}
 .container1 {
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
+.offer-list {
+	margin:0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.offer-item1,
+.offer-item2 {
+	width:560px;
+	height: 230px;
+}
+.special-offer {
+	margin-bottom: 40px;
+}
 .footer-copyright {
   width: 150px;
   margin: 0;
