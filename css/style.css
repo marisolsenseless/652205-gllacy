@@ -132,7 +132,7 @@ a {
 .user-navigation a:focus {
  background-color: #ffffff;
 }
-.container h2{
+.slide-container h2{
 	font-size:60px;
 	line-height: 60px;
 	text-align: center;
@@ -241,7 +241,13 @@ h4 {
 
 
 /* ------Сеточные стили--------*/
-
+.container1 {
+	width:1146px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:27px;
+	padding-right:27px;
+}
 .main-header {
 margin-bottom:35px;
 display: flex;
@@ -263,7 +269,7 @@ background-color: rgb(154, 183, 167);
 }
 .main-navigation {
   display: flex;
-  flex-direction: row;
+  margin-top:11px;
   
  }
 
@@ -273,8 +279,7 @@ background-color: rgb(154, 183, 167);
   
   list-style: none;
   
-  /* Временно для сетки */
-  min-height: 70px;
+
 }
 
 .user-navigation {
@@ -283,8 +288,7 @@ background-color: rgb(154, 183, 167);
   
   list-style: none;
   
-  /* Временно для сетки */
-  min-height: 70px;
+ 
 }
 
 .main-navigation-wrapper {
@@ -322,6 +326,5 @@ background-color: rgb(154, 183, 167);
   margin: 0;
   margin-left: auto;
 
-  /* Временно для сетки */
-  min-height: 100px;
+
 }
