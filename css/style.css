@@ -243,10 +243,7 @@ h4 {
 /* ------Сеточные стили--------*/
 .container1 {
 	width:1146px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left:27px;
-	padding-right:27px;
+	
 }
 .main-header {
 margin-bottom:35px;
@@ -294,10 +291,12 @@ background-color: rgb(154, 183, 167);
 .main-navigation-wrapper {
   width: 100%;
   margin-bottom:35px;
+
 }
 .main-navigation-wrapper .container1{
 	display: flex;
 	justify-content: space-between;
+	
 }
 .container1 {
   width: 940px;
