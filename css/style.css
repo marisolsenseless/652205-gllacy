@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-
   font-family: "Roboto", Arial, sans-serif;                                                                        
   font-size: 16px;
   line-height: 1.2;
@@ -48,7 +47,7 @@ body {
 }
 
 .site-wrapper::after {
-  background-image: url("img/Group 3.png.png");
+  background-image: url("img/Group 3.png");
 }
 
 .container {
@@ -329,10 +328,12 @@ a {
 	width:1146px;
 	
 }
+nav {
+  width:100%;
+}
 .main-header {
 margin-bottom:35px;
-display: flex;
-justify-content: space-between;
+
 
 background-color: 
 }
@@ -352,8 +353,7 @@ background-color:
 }
 .main-navigation {
   display: flex;
-  flex-direction:column;
-  
+    
   margin-top:11px;
   
  }
