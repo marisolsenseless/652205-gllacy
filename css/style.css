@@ -174,7 +174,7 @@ body {
 #product-3:checked ~ .site-wrapper label[for="product-3"] {
   background-color: #ffffff;
 }
-
+ /* слайдер */
 
 
 
@@ -224,12 +224,7 @@ a {
 .user-navigation a:focus {
  background-color: #ffffff;
 }
-.slide-container h2{
-	font-size:60px;
-	line-height: 60px;
-	text-align: center;
 
-}
 .offer-list {
 	list-style: none;
 }
@@ -262,10 +257,7 @@ a {
 	line-height:22px;
 
 }
-h4 {
-	font-size:24px;
-	line-height:30px;
-	color:#000000;
+
 }
 .feature-item {
 	font-size:16px;
@@ -333,7 +325,7 @@ h4 {
 
 
 /* ------Сеточные стили--------*/
-.container1 {
+.container {
 	width:1146px;
 	
 }
@@ -341,59 +333,67 @@ h4 {
 margin-bottom:35px;
 display: flex;
 justify-content: space-between;
-align-items: center;
-background-color: rgb(154, 183, 167);
+
+background-color: 
 }
 
 .site-navigation {
-	width:400px;
+	width:px;
 	margin: 0;
 	padding: 0;
+	
 }
 
 .user-navigation{
 	width:265px;
 	margin:0;
 	padding: 0;
+
 }
 .main-navigation {
   display: flex;
+  flex-direction:column;
+  
   margin-top:11px;
   
  }
 
-.site-navigation {
+.site-navigation,
+.search,
+.basket {
   margin: 0;
   padding: 0;
+  display:flex;
+  flex-wrap:wrap;
+  width:1146px;
   
   list-style: none;
   
 
 }
 
-.user-navigation {
-  margin: 0;
-  padding: 0;
-  
-  list-style: none;
-  
+
  
-}
+
 
 .main-navigation-wrapper {
   width: 100%;
   margin-bottom:35px;
 
 }
-.main-navigation-wrapper .container1{
-	display: flex;
-	justify-content: space-between;
-	
+.site-navigation a,
+.user-navigation a,
+.search a,
+.basket a{
+	display:block;
+	padding: 25px 20px;
+	vertical-align: middle;
 }
-.container1 {
-  width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+	background-color:;
 }
 
 .offer-list {
