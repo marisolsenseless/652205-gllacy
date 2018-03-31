@@ -10,14 +10,11 @@ body {
   background-image: url{"img/main-background.png"};
 }
 .main-container {
-  width:1146px;
+  width:100%;
+  display:flex;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 27px;
-  padding-right:27px;
-}
-a {
-  text-decoration: none;
+  
 }
 .main-header {
   margin-bottom: 20px;
@@ -34,6 +31,8 @@ a {
   color:#ffffff;
   background-color: rgb(140, 164, 150);
   display:flex;
+
+  
 }
 
 .site-navigation{
@@ -42,45 +41,87 @@ a {
   padding:0;
   display: flex;
   flex-wrap: wrap;
-  
+  list-style: none
 }
+.site-navigation li {
+  padding:20px;
+}
+
+.site-navigation a {
+  display:block;
+  color: #ffffff;
+  text-decoration:underline;
+}
+
 .user-navigation {
+  
   width:auto;
   margin: 0;
   padding: 0;
   display:flex;
+  list-style: none;
+
 }
+.user-navigation li{
+  padding:20px;
+
+
+}
+.user-navigation a {
+display:block;
+color: #ffffff;
+}
+
 .other-stuff {
+  
   width:auto;
   margin: 0;
   padding:0;
   display:flex;
+  list-style: none
 }
-.site-navigation,
-.user-navigation,
-.other-stuff {
-  list-style: none;
-}
+.other-stuff li{
+  padding:20px;
 
-.site-navigation a,
-.user-navigation a,
+}
 .other-stuff a{
   display:block;
-  padding:30px;
   color: #ffffff;
 }
 .site-navigation a:hover,
-.site-navigation a:focus,
+.site-navigation a:focus {
+  color: #323232;
+  background-color:#ffffff;
+  border-radius: 10px;
+}
+
 .user-navigation a:hover,
-.user-navigation a:focus,
+.user-navigation a:focus {
+  color: #323232;
+  background-color:#ffffff;
+  border-radius: 10px;
+}
+
 .other-stuff a:hover,
 .other-stuff a:focus {
 color: #323232;
 background-color:#ffffff;
 border-radius: 10px;
 }
+.time {
+  text-align: right;
+  font-size: 14px;
+  line-height: 16px;
+}
+.telefone {
+  text-align: right;
+  font-size:22px;
+  line-height: 24px;
+}
 
   /* слайдер */
+
+
 .visually-hidden {
   position: absolute;
 
@@ -250,7 +291,7 @@ border-radius: 10px;
   height:230px;
   font-size: 35px;
   line-height: 41px;
-  background-image: url("../img/raspberry-background.jpg");
+  background-image: url("../img/raspberry-background.png");
   background-repeat: no-repeat;
 }
 .offer-item-chocolate {
@@ -258,7 +299,7 @@ border-radius: 10px;
   height:230px;
   font-size: 35px;
   line-height: 41px;
-  background-image: url("../img/chocolate-background.jpg");
+  background-image: url("../img/chocolate-background.png");
   background-repeat: no-repeat;
 }
 .offer-item-raspberry p{
