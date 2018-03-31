@@ -133,6 +133,7 @@ border-radius: 10px;
 
 .site-wrapper {
   min-width: 940px;
+
   /*background-color: #849d8f;*/
   background-image: url("../img/start-icecream.png");
   background-repeat: no-repeat;
@@ -160,7 +161,7 @@ border-radius: 10px;
 .container {
   width: auto;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0;
 }
 
 .slider {
@@ -399,6 +400,7 @@ color:rgb(255, 188, 158);
   line-height: 22px;
   color:#000000;
 }
+
 .main-footer {
   margin-top: 35px;
 }
@@ -407,7 +409,10 @@ color:rgb(255, 188, 158);
   padding: 0;
 }
 .footer-social ul {
-  list-style:none
+  list-style:none;
+  display:flex;
+  flex-wrap: wrap;
+
 }
 .footer-social a {
   color:#ffffff;
@@ -439,9 +444,16 @@ color:rgb(255, 188, 158);
 .footer-copyright a {
  color:#ffffff; 
 }
+
+
 .footer-copyright a:hover,
 .footer-copyright a:focus {
 color:rgb(255, 188, 158);
 }
-
+.social-button {
+  display:flex;
+  align-items: left;
+  justify-content: center;
+ 
+}
 
