@@ -73,7 +73,7 @@ color: #ffffff;
 }
 
 .other-stuff {
-  
+
   width:auto;
   margin: 0;
   padding:0;
@@ -119,7 +119,7 @@ border-radius: 10px;
   line-height: 24px;
 }
 
-  /* слайдер */
+  /*  слайдер*/
 
 
 .visually-hidden {
@@ -133,7 +133,7 @@ border-radius: 10px;
 
 .site-wrapper {
   min-width: 940px;
-  background-color: #849d8f;
+  /*background-color: #849d8f;*/
   background-image: url("../img/start-icecream.png");
   background-repeat: no-repeat;
   background-position: top center;
@@ -249,17 +249,17 @@ border-radius: 10px;
 }
 
 #product-1:checked ~ .site-wrapper {
-  background-color: #849d8f;
+  /*  background-color: #849d8f;*/
   background-image: url("../img/start-icecream.png");
 }
 
 #product-2:checked ~ .site-wrapper {
-  background-color: #8996a6;
+ /* background-color: #8996a6;*/
   background-image: url("../img/middle-icecream.png");
 }
 
 #product-3:checked ~ .site-wrapper {
-  background-color: #9d8b84;
+  /*background-color: #9d8b84;*/
   background-image: url("../img/end-icecream.png");
 }
 
@@ -289,6 +289,8 @@ border-radius: 10px;
 .offer-item-raspberry {
   width:560px;
   height:230px;
+  padding:10px;
+  box-sizing: border-box;
   font-size: 35px;
   line-height: 41px;
   background-image: url("../img/raspberry-background.png");
@@ -297,6 +299,8 @@ border-radius: 10px;
 .offer-item-chocolate {
   width:560px;
   height:230px;
+  padding:10px;
+  box-sizing: border-box;
   font-size: 35px;
   line-height: 41px;
   background-image: url("../img/chocolate-background.png");
