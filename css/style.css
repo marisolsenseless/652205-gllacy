@@ -382,7 +382,7 @@ body {
   padding: 0;
   margin: 0;
   display: flex;
-  background-image: url(../img/waffle-background.jpg);
+  background-image: url("../img/waffle-background.jpg");
   margin-bottom: 40px;
   padding:10px 20px;
   border-radius:18px;
@@ -414,7 +414,17 @@ body {
 .feature-item:nth-child(2n) {
   margin-right: 0;
 }
+.feature-item img {
+  float:left;
+  margin-right:10px;
 
+}
+.feature-item p{
+  text-align:left;
+  margin:10px;
+  
+
+}
 .news-mail-out {
   margin: 0;
   padding: 0;
@@ -435,6 +445,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: #000000;
+  padding:10px;
 }
 
 .news a {
@@ -443,6 +454,7 @@ body {
   color: #000000;
   display: inline-block;
   max-width: 300px;
+  margin-left:10px;
 }
 
 .mail-out {
@@ -453,12 +465,25 @@ body {
   margin-bottom: 40px;
 }
 
+
 .mail-out p {
   font-size: 16px;
   line-height: 22px;
-  color: #000000;
+  color: #5a5a5a;
 }
+.mail-out-wrapper {
+width: 552px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f8f7f4;
+    border-radius: 15px;
+    height: 212px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 
+}
 .main-footer {
   margin-top: 35px;
 }
