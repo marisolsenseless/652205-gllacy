@@ -12,15 +12,18 @@ body {
 
 .container {
   width: 1146px;
-  display: flex;
   margin-left: auto;
   margin-right: auto;
   padding-left: 27px;
   padding-right: 27px;
 }
 
+.container-inner {
+  display: flex;
+}
+
 .main-header {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .main-header-logo {
@@ -49,6 +52,7 @@ body {
 
 .site-navigation li {
   padding: 20px;
+  white-space: nowrap;
 }
 
 .site-navigation a {
@@ -60,14 +64,14 @@ body {
 .other-stuff {
   width: auto;
   margin: 0;
-  padding-left: 27px;
-  padding-right: 27px;
+  padding-left: 240px;
   display: flex;
   list-style: none
 }
 
 .other-stuff li {
   padding: 20px;
+  white-space: nowrap;
 }
 
 .other-stuff a {
