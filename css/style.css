@@ -128,11 +128,11 @@ body {
   padding-right: 27px;
 }
 
-/*
+
 .site-wrapper {
   min-width: 940px;
 
-  /*background-color: #849d8f;
+  /*background-color: #849d8f;*/
   background-image: url("../img/start-icecream.png");
   background-repeat: no-repeat;
   background-position: top center;
@@ -250,17 +250,17 @@ body {
 }
 
 #product-1:checked ~ .site-wrapper {
-  /*  background-color: #849d8f;
+  /*  background-color: #849d8f;*/
   background-image: url("../img/start-icecream.png");
 }
 
 #product-2:checked ~ .site-wrapper {
- /* background-color: #8996a6;
+ /* background-color: #8996a6;*/
   background-image: url("../img/middle-icecream.png");
 }
 
 #product-3:checked ~ .site-wrapper {
-  /*background-color: #9d8b84;
+  /*background-color: #9d8b84;*/
   background-image: url("../img/end-icecream.png");
 }
 
@@ -275,7 +275,7 @@ body {
 #product-3:checked ~ .site-wrapper label[for="product-3"] {
   background-color: #ffffff;
 }
-*/
+
 
 .special-offer {
   margin-bottom: 45px;
@@ -472,7 +472,7 @@ body {
   color: #5a5a5a;
 }
 .mail-out-wrapper {
-width: 552px;
+width: 550px;
     padding: 10px;
     box-sizing: border-box;
     background-color: #f8f7f4;
@@ -482,7 +482,17 @@ width: 552px;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
+}
+.map iframe {
+  position:relative;
+  z-index: 2;
 
+}
+.map img {
+  position: relative;
+  margin-top:-500px;
+  top:0;
+  left:0;
 }
 .main-footer {
   margin-top: 35px;
@@ -501,6 +511,22 @@ width: 552px;
 
 .footer-social a {
   color: #ffffff;
+  padding:10px;
+}
+.contact-form {
+    width: 305px;
+    height: 305px;
+    background-color: #fefefe;
+    border-radius: 18px;
+    position: absolute;
+    right: 61px;
+    top: 1830px;
+    z-index: 3;
+  }
+.contact-form p {
+color: #525252;
+text-align:left;
+padding:10px;
 }
 
 .extra-information {
@@ -531,6 +557,7 @@ width: 552px;
 
 .footer-copyright a {
   color: #ffffff;
+
 }
 
 .footer-copyright a:hover,
@@ -542,4 +569,5 @@ width: 552px;
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity:0.8;
 }
