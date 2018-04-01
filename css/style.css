@@ -10,7 +10,7 @@ body {
   background-image: url("img/main-background.png");
 }
 
-.container {
+.container{
   width: 1146px;
   margin-left: auto;
   margin-right: auto;
@@ -23,6 +23,12 @@ body {
 }
 
 .main-header {
+  width: 1146px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 27px;
+  padding-right: 27px;
+
   margin-bottom: 0px;
 }
 
@@ -35,6 +41,7 @@ body {
 }
 
 .main-navigation {
+  width:992px;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
@@ -43,7 +50,7 @@ body {
 }
 
 .site-navigation {
-  width: auto;
+  width: 400px;
   margin: 0;
   padding: 0;
   display: flex;
@@ -62,9 +69,9 @@ body {
 }
 
 .other-stuff {
-  width: auto;
+  width: 280px;
   margin: 0;
-  padding-left: 240px;
+  padding-left: 290px;
   display: flex;
   list-style: none
 }
@@ -113,7 +120,13 @@ body {
   height: 1px;
   clip: rect(0, 0, 0, 0);
 }
-
+.container-container {
+  width: 1146px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 27px;
+  padding-right: 27px;
+}
 
 /*
 .site-wrapper {
@@ -326,6 +339,7 @@ body {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  margin-bottom:35px;
 }
 
 .catalog a {
@@ -349,6 +363,13 @@ body {
   display: flex;
   background-image: url(../img/waffle-background.jpg);
   margin-bottom: 40px;
+  padding:10px 20px;
+  border-radius:18px;
+
+}
+.feature-list {
+  display:flex;
+  flex-wrap: wrap;
 }
 
 .feauture-title {
